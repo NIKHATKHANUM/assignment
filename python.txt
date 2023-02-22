@@ -1,0 +1,55 @@
+
+# Declear & assign variables in python
+int_var = 10
+float_var = 18.2
+string_var = "ineuron batch2" # another way of 'ineuron batch2'
+bool_var = True # if we want to assign flase then it should be like flase
+
+
+# funtion in python output
+# function does what? They might or might not accect some parameters
+print("hllo world..")
+
+# print varialbe value in python
+print("value of int_var=",int_var,"result done..")
+print("value of float_var=",float_var,"result done..")
+print("value of string_var",string_var,"result done..")
+print("value of bool_var",bool_var,"result done..") 
+# how to check the  data type of variable in python 
+# we can use type() funtion
+print("type int_var?",type(int_var))
+print("type float_var",type(float_var))
+print("type string_var",type(string_var))
+print("type bool_var",type (bool_var))
+
+# how to do type casting in python??
+#int_var(),float(),string(),bool()
+int_var = int_var + 10 # intvar = 10 + 10 and in next step int_var =20
+casted_int_var = float(int_var)
+casted_float_var = int(float_var)
+print("Int to float typecasting for int_var =",casted_int_var)
+print("float to int typecasting for float_var =",casted_float_var)
+numeric_str="123"
+#numeric_str = numeric_str + 50 # is it valid?? numeric_str = "123" + 50
+#pint("value of numeric_str =",numeric_str)
+numeric_str = int(numeric_str ) + 50 # numeric_str = int(123) + 50 -> 123+50 =173
+print("value of numeric_str =",numeric_str)
+
+# how to take inputs in python?
+# we can use input() fuction
+
+name = input()
+age = input()
+print("user name =",name)
+print("user age =",age)
+
+# another to take user input with custome message
+name = input("enter value for name =")
+age = input("enter value for age =")
+print("user name =",name)
+print("user age =",age)
+
+# convert type of data during the input
+
+print("type of name =",type(name))
+print("tpye of age =",type(age))
